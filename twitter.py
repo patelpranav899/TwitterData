@@ -14,10 +14,10 @@ consumer_secret = "xxxx"
 #This is a basic listener that just prints received tweets to stdout.
 class StdOutListener(StreamListener):
 
-    def on_data(self, data):
-        print(data)
+    def on_data(self, result):
+        print(result)
 
-        mydata=json.loads(data)
+        mydata=json.loads(result)
         tweet=mydata['text'].encode("utf-8")
         time=mydata["created_at"]
         tweet_id=mydata["id"]
