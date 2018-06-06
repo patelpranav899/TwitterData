@@ -7,10 +7,10 @@ import numpy as np
 import json
 import csv
 #Variables that contains the user credentials to access Twitter API
-access_token = "918559108214743040-2wLfao5NpdvsOtSQj3mV90YGu9ZAn62"
-access_token_secret = "qQfaBuyq2v5yclUXYueYZdD8OsStY6Ic8FmSO8VZ0wmmI"
-consumer_key = "ZEpnIpk6tMCOnmuH75yv0t4qO"
-consumer_secret = "GPoUlG6kdKV3lB7IGGyRwhDIhRNO1N3yjh5MlYBXVODLoUeGIQ"
+access_token = "xxxx"
+access_token_secret = "xxxx"
+consumer_key = "xxxx"
+consumer_secret = "xxxx"
 
 
 #This is a basic listener that just prints received tweets to stdout.
